@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Dancing+Script:wght@700&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+/*header*/
+#header {
+	height: 60px;
+	width: 1278px;
+}
+.container {
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.logo h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Crimson Text', serif;
+}
+.logo h1 span {
+	color: lightcoral;
+	font-family: 'Crimson Text', serif;
+}
+
+.tik:hover {
+
+	border-bottom: 2px solid lightcoral;
+	font-weight: bold;
+
+}
+
+
+#header > div > div > div.logo {
+float: left;
+	padding-left: 92px;
+	padding-top: 13px;
+	font-family: 'Dancing Script', cursive;
+}
+#header > div > div > div.nav-list > ul {
+float: right;
+
+}
+#header > div > div > div.nav-list > ul > li {
+display: inline-block;
+	padding-right: 42px;
+	padding-top: 16px;
+}
+#header > div > div > div.nav-list > ul > li >a
+{
+	color: white;
+	font-size: 22px;
+}
+
+
+#header > div > div > div.nav-list > ul > li >a :hover{
+	color: red;
+}
+#header1
+{
+	background-image:  url(./img/background1.jpg);
+	background-size: cover;
+	background-position: top center;
+
+
+}
+/*header*/
+/*home*/
+#home::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+#home .home{
+	max-width: 1200px;
+	margin: 0 auto;
+	justify-content: flex-start;
+	padding: 0 52px;
+}
+
+
+#home > div > div > h1{
+	color: antiquewhite;
+	display: block;
+	font-size: 51px;
+	width: 261px;
+
+}
+/*home*/
+
+
+/* About */
+#about .about {
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 87px 25px;
+	width: 1200px;
+	height: 722px;
+	flex-direction: row;
+
+}
+#about .col-left {
+	width: 250px;
+	height: 360px;
+}
+#about > div > div.col-left > div > img {
+	height: 100%;
+	width: 100%;
+}
+
+#about .col-right {
+	width: 100%;
+	padding: 30px;
+}
+#about > div > div.col-left > div > img {
+	border-radius: 141px;
+}
+#about .col-right h2 {
+	font-size: 31px;
+	letter-spacing: 0.2rem;
+	font-weight: normal;
+	width: 700px;
+}
+#about .col-right p {
+	margin-bottom: 20px;
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	text-align: center;
+	width: 685px;
+}
+
+
+	#about .col-left {
+		width: 600px;
+		height: 400px;
+		padding-left: 60px;
+	}
+
+	#about .col-right h1 {
+		text-align: left;
+	}
+#about > div > div.col-left > div {
+	height: 400px;
+	width: 300px;
+}
+/*about*/
+
+/*skills*/
+#skills-1 {
+
+	text-align: center;
+	padding-top: 35px;
+	padding-left: 255px;
+}
+#skills-1 h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+body > section#skills-1 > div > div > h3
+{
+	font-size: 24px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	width: 1021px;
+	height: 340px;
+}
+
+#skills-1 > div > div > p{
+	font-size: 20px;
+	line-height: 22px;
+	padding:10px;
+	font-weight: 300;
+	color: white;
+	margin-top: -13px;
+	width: 317px;
+}
+.skills-col {
+	flex-basis: 31%;
+	background: cadetblue;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	box-sizing: border-box;
+	box-shadow: 21px 15px white;
+}
+
+#icons > ul > li{
+
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+}
+#icons > ul {
+	padding-left:5px;
+	list-style-type: none;
+
+}
+#skills-1 > div > div> h3
+{
+	font-size: 25px;
+	color: white;
+}
+#skills {
+	background: url(./img/computer_skills_2.jpg);
+	height: 500px;
+	margin-bottom: 66px;
+}
+#skills-1 .skills-col:hover {
+	transform: scale(1.02);
+	border: 2px solid rgba(255, 255, 255, 1);
+}
+#skills-1 > h1 {
+	color: cadetblue;
+	font-family: 'Lobster', cursive;
+	width: 1022px;
+	height: 45px;
+	margin-bottom: 34px;
+}
+
+#icons {
+	padding-bottom: 4px;
+}
+/*skills*/
+
+/*footer*/
+footer {
+	width: 100%;
+	height: 74px;
+
+}
+#social > ul {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+#social > ul > li{
+	display: flex;
+	width: 40px;
+}
+ footer > div:nth-child(2) > p{
+	text-align: center;
+	padding-top: 8px;
+	font-size: 14px;
+
+}
+
+#social > ul > li > a:hover {
+	transform: scale(2.0);
+
+}
+/*footer*/
+/*contact*/
+#contact{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+#contact:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+
+	background-size: cover;
+	height: 100%;
+}
+#contact > div > div.left > iframe {
+	width: 445px;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+	color: lightcoral;
+}
+
+h2:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 50px;
+	border-radius: 4px;
+
+}
+
+.col{
+	width: 100%;
+	margin-bottom: 20px;
+	transition: .3s;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(55,75,109,0.1);
+	padding: 6px 9px;
+	font-size: 12px;
+
+}
+
+.col:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.send{
+
+	color: #fff;
+	border: none;
+	padding: 8px 53px;
+	background-color: lightcoral;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.send:hover{
+	background-color: #27ae60;
+}
+
+.col:focus{
+	border: 2px solid lightcoral;
+	background-color:white;
+}
+div#contact > div > div.left > iframe {
+	width: 435px;
+}
+/*contact*/
+/*hobby*/
+#right > ul > li> img
+{
+	width: 275px;
+
+}
+#right > ul {
+	list-style-type: none;
+}
+#flex-hobby {
+	display: flex;
+	justify-content: center;
+	width: 1078px;
+	margin-left: 141px;
+}
+#left{
+	width: 304px;
+}
+#right{
+	width: 600px;
+}
+#right > ul > li:nth-child(1) {
+	float: left;
+}
+#right > ul > li:nth-child(2){
+	float: left;
+	margin-left: 2px;
+}
+#right > ul > li:nth-child(3){
+	float: left;
+	margin-top: -229px;
+}
+#right > ul > li:nth-child(4){
+	float: left;
+	margin-left: 2px;
+	margin-top: -1px;
+}
+#right > ul > li:nth-child(5){
+	float: left;
+	margin-top: -351px;
+}
+#right > ul > li:nth-child(6){
+	float: left;
+	margin-top: -164px;
+}
+#hobby {
+	padding: 157px 100px;
+}
+#left-photo > ul > li > img {
+	width: 275px;
+}
+#left > ul > li {
+	list-style-type: none;
+}
+#left > p {
+
+margin-bottom: 20px;
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	text-align: justify;
+
+}
+#right > ul > ul > p ,#right > ul > ul > li{
+
+	margin-bottom: 10px;
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	/* line-height: 2.5rem; */
+	font-weight: 300;
+	width: 238px;
+	text-align: center;
+
+}
+#right > ul > ul > p {
+	border-bottom:1px solid lightcoral;
+}
+#right > ul > ul {
+	float: left;
+	margin-left: -24px;
+	list-style-type: none;
+}
+#right > ul > ul > li > a {
+	color: black;
+}
+
+#right> ul > ul > li> a.tik2:hover{
+    border-bottom:1px solid lightcoral;
+}
+#right > ul > li:nth-child(8)
+{
+	float: right;
+	margin-top: 13px;
+	margin-right: 8px;
+}
+#hobby > h3 {
+	font-family: 'Inconsolata', monospace;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 9px;
+	width: 1078px;
+	margin-left: -156px;
+}
+#left-photo {
+	margin-left: -43px;
+}
+#left-photo > ul > li > img {
+	width: 305px;
+	height: 278px;
+}
+#right > ul > li:nth-child(8) > iframe{
+	width: 269px;
+	height: 156px;
+
+}
+#right > ul > p {
+	display: inline-block;
+	margin-left: 67px;
+}
+#right > ul > p:hover {
+	background: lightcoral;
+	font-weight: bold;
+}
+#left-photo > ul {
+	list-style-type: none;
+}
+/*hobby */
